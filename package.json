@@ -1,0 +1,9 @@
+{
+  "name": "other-one",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "hydrogen-cli": "^1.0.0"
+  }
+}
