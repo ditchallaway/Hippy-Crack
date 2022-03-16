@@ -1,16 +1,14 @@
----
-created: 2022-03-15T21:38:12 (UTC -07:00)
-tags: []
-source: https://hydrogen-js.netlify.app/docs/
-author: 
----
+
+
+
 
 # Docs | 🎈 Hydrogen
 
-> ## Excerpt
-> Hydrogen uses JavaScript as it's templating engine, it's aimed at doing one thing really well which is converting template literals to HTML making it super extensible as you have the whole Node.js ecosystem at your fingertips.
+ ## Excerpt
+Hydrogen uses JavaScript as it's templating engine, it's aimed at doing one thing really well which is converting template literals to HTML making it super extensible as you have the whole Node.js ecosystem at your fingertips.
 
 ---
+
 # The lightest static-site generator
 
 ___
@@ -19,7 +17,7 @@ Hydrogen uses JavaScript as it's templating engine, it's aimed at doing one thin
 
 Before ES6, JavaScript was not considered powerful enough to manipulate large chunks of the DOM and template engines like Handlebars and Pug filled that void. Now that JavaScript is more powerful than ever, it's time for JS to shine as a viable templating engine.
 
-Hydrogen provides you with:
+## Hydrogen provides you with:
 
 -   **⚡ Millisecond Builds.** With the global average attention span being 8 seconds, why wait seconds for your builds when you can wait milliseconds.
 -   **🔥 JavaScript Templates.** With ES6 template literals, who needs template engines like pug and handlebars. You now have access to the full-power of JavaScript.
@@ -28,17 +26,15 @@ Hydrogen provides you with:
 -   **🔨 Build Hooks.** Customize the build process to fit your needs
 -   **💾 Service Worker friendly.** Build powerful offline-first experiences
 
-## Index
-
-
+___
 
 # Getting Started | 🎈 Hydrogen
 
-> ## Excerpt
-> Learn how to get up and running with Hydrogen
+ ## Excerpt
+ Learn how to get up and running with Hydrogen
 
----
-# 🔨 Getting Started
+
+#🔨 Getting Started
 
 ___
 
@@ -67,7 +63,7 @@ Our project needs a `_package.json_`. We can use Yarn to make one
   
 ```
 
-Add Hydrogen to the `package.json`
+Add Hydrogen to the "package.json"
 
 ```
     
@@ -121,10 +117,10 @@ We need to run the `generate` command to build the `index.js` template. The outp
     
   
 ```
+`
 
-`index.html`
+```index.html
 
-```
     
       <html>
         <head>
@@ -148,8 +144,9 @@ The _generate_ command is more of a lower-level template generator, for a more a
 
 # Advanced Setup | 🎈 Hydrogen
 
-> ## Excerpt
-> Learn how to use a more advanced setup with Hydrogen
+## Excerpt
+
+Learn how to use a more advanced setup with Hydrogen
 
 ---
 # ⚙ Advanced Setup
