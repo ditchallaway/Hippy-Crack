@@ -1,11 +1,11 @@
+![https://www.dropbox.com/s/u52ct4hid9v50dt/3424970624_fc01a70fc8_o.jpg?dl=0](C:/Users/jon-k/Dropbox/little-girl-blowing-up-balloon.jpg)
+
+# Docs | 🎈 Hippy Crack
+
+ ## Code Forked from Hydrogen.js
+Renamed Nitrous as the code had clearly become too heavy for an atom with just a single proton.  Later named Hippy Crack when it was discovered that the **site** and and even the **generator** were emergent properties of the state.
 
 
-
-
-# Docs | 🎈 Hydrogen
-
- ## Excerpt
-Hydrogen uses JavaScript as it's templating engine, it's aimed at doing one thing really well which is converting template literals to HTML making it super extensible as you have the whole Node.js ecosystem at your fingertips.
 
 ---
 
@@ -13,32 +13,31 @@ Hydrogen uses JavaScript as it's templating engine, it's aimed at doing one thin
 
 ___
 
-Hydrogen uses JavaScript as it's templating engine, it's aimed at doing one thing really well which is converting _template literals_ to HTML making it super extensible as you have the whole Node.js ecosystem at your fingertips.
+ Hippy Crack uses JavaScript as it's templating engine, it's aimed at doing one thing really well but instead SURPRIZE ATTACK! it starts converting template literals to HTML making it super extensible as you have the whole Node.js ecosystem at your fingertips. 🔊Wa-wa-wa-wa...🎈
 
 Before ES6, JavaScript was not considered powerful enough to manipulate large chunks of the DOM and template engines like Handlebars and Pug filled that void. Now that JavaScript is more powerful than ever, it's time for JS to shine as a viable templating engine.
 
-## Hydrogen provides you with:
+## Hippy Crack provides you with:
 
 -   **⚡ Millisecond Builds.** With the global average attention span being 8 seconds, why wait seconds for your builds when you can wait milliseconds.
 -   **🔥 JavaScript Templates.** With ES6 template literals, who needs template engines like pug and handlebars. You now have access to the full-power of JavaScript.
 -   **🔌 Use External APIs.** Plug into your data with remote APIs.
 -   **🕶 Powerful Metadata API.** Get the best SEO for your static pages.
 -   **🔨 Build Hooks.** Customize the build process to fit your needs
--   **💾 Service Worker friendly.** Build powerful offline-first experiences
+-   🤖 Service Worker friendly.** Build powerful offline-first experiences
 
 ___
 
-# Getting Started | 🎈 Hydrogen
+# Getting Started | 🎈 Hippy Crack
 
- ## Excerpt
- Learn how to get up and running with Hydrogen
+Learn how to get up and running with Hippy Crack
 
 
-#🔨 Getting Started
+🔨 Getting Started
 
 ___
 
-Hydrogen is available on [Yarn](https://yarnpkg.com/en/package/hydrogen-cli) and [NPM](https://www.npmjs.com/package/hydrogen-cli) and requires Node.js 8 and higher. We will be using Yarn as the package manager throughout the documentation
+Hippy Crack is available on [Yarn](https://yarnpkg.com/en/package/Hippy Crack-cli) and [NPM](https://www.npmjs.com/package/Hippy Crack-cli) and requires Node.js 8 and higher. We will be using Yarn as the package manager throughout the documentation
 
 ## Step 1: Setup a project
 
@@ -46,13 +45,13 @@ We need a folder to store our project files
 
 ```
     
-      $ mkdir hydrogen-sample
-      $ cd hydrogen-sample
+      $ mkdir Hippy Crack-sample
+      $ cd Hippy Crack-sample
     
   
 ```
 
-## Step 2: Install Hydrogen
+## Step 2: Install Hippy Crack
 
 Our project needs a `_package.json_`. We can use Yarn to make one
 
@@ -63,11 +62,11 @@ Our project needs a `_package.json_`. We can use Yarn to make one
   
 ```
 
-Add Hydrogen to the "package.json"
+Add Hippy Crack to the "package.json"
 
 ```
     
-      $ yarn add hydrogen-cli
+      $ yarn add Hippy Crack-cli
     
   
 ```
@@ -91,10 +90,10 @@ Let's create a simple template which we will store in `index.js` file
       `;
 
       module.exports = {
-        title: 'Hydrogen webpage',
+        title: 'Hippy Crack webpage',
         page,
         data: () => ({
-          text: 'Hello from Hydrogen',
+          text: 'Hello from Hippy Crack',
           css: 'https://main.css',
         }),
         head: ({ data }) => [
@@ -113,7 +112,7 @@ We need to run the `generate` command to build the `index.js` template. The outp
 
 ```
     
-      $ npx hydrogen generate index.js
+      $ npx Hippy Crack generate index.js
     
   
 ```
@@ -127,33 +126,33 @@ We need to run the `generate` command to build the `index.js` template. The outp
           <link rel="stylesheet" href="https://main.css" />
           <script src="https://script.js"></script>
           <style>body { font-size: 10px; }</style>
-          <title>Hydrogen webpage</title>
+          <title>Hippy Crack webpage</title>
         </head>
         <body>
-          <p>Hello from Hydrogen</p>
+          <p>Hello from Hippy Crack</p>
         </body>
       </html>
     
   
 ```
 
-The _generate_ command is more of a lower-level template generator, for a more advanced setup we use the _build_ command for working with more larger projects. Find out more in the [Advanced Setup](https://hydrogen-js.netlify.app/docs/advanced-setup) section.
+The _generate_ command is more of a lower-level template generator, for a more advanced setup we use the _build_ command for working with more larger projects. Find out more in the [Advanced Setup](https://Hippy Crack-js.netlify.app/docs/advanced-setup) section.
 
 
 
 
-# Advanced Setup | 🎈 Hydrogen
+# Advanced Setup | 🎈 Hippy Crack
 
 ## Excerpt
 
-Learn how to use a more advanced setup with Hydrogen
+Learn how to use a more advanced setup with Hippy Crack
 
 ---
 # ⚙ Advanced Setup
 
 ___
 
-If you have not read the [Getting Started](https://hydrogen-js.netlify.app/docs/getting-started) guide, now would be the perfect time! The Advanced Section builds on top of what we did in the Getting Started section.
+If you have not read the [Getting Started](https://Hippy Crack-js.netlify.app/docs/getting-started) guide, now would be the perfect time! The Advanced Section builds on top of what we did in the Getting Started section.
 
 ## Step 1: Setting up a layout
 
@@ -194,10 +193,10 @@ pages/index.js
 
       module.exports = {
         layout: 'default',
-        title: 'Hydrogen webpage',
+        title: 'Hippy Crack webpage',
         page,
         data: () => ({
-          text: 'Hello from Hydrogen 🎈',
+          text: 'Hello from Hippy Crack 🎈',
         }),
       };
     
@@ -210,7 +209,7 @@ After setting up our pages and layouts, we are now able to generate our template
 
 ```
     
-      $ npx hydrogen build
+      $ npx Hippy Crack build
        _   _           _
       | | | |_   _  __| |_ __ ___   __ _  ___ _ __  
       | |_| | | | |/ _` | '__/ _ \ / _` |/ _ \ '_ \ 
@@ -235,9 +234,9 @@ Repeat Step 3 to see how it works.
 
 ## Step 5: Setting up a dev server
 
-Most static-site generators provide a development server out of the box but not Hydrogen. Hydrogen gives all the power to you, so you can setup our own development server. Here is a simple development server setup with hot reloading.
+Most static-site generators provide a development server out of the box but not Hippy Crack. Hippy Crack gives all the power to you, so you can setup our own development server. Here is a simple development server setup with hot reloading.
 
-We need some way to re-run hydrogen when files change and push the updates to the browser. We can use `nodemon` `live-server` `npm-run-all` packages
+We need some way to re-run Hippy Crack when files change and push the updates to the browser. We can use `nodemon` `live-server` `npm-run-all` packages
 
 Install packages
 
@@ -254,7 +253,7 @@ Update package.json
     
         {
           "scripts": {
-            "reload": "npx cross-env npx nodemon -w ./layouts -w ./pages -w ./public --exec \"npx hydrogen build --dev\"",
+            "reload": "npx cross-env npx nodemon -w ./layouts -w ./pages -w ./public --exec \"npx Hippy Crack build --dev\"",
             "serve": "npx cross-env npx live-server ./dist",
             "dev": "npx npm-run-all --parallel reload serve"
           }
@@ -268,7 +267,7 @@ Run `yarn dev` then you will have neat little development server with hot reload
 
 
 
-# Working with data | 🎈 Hydrogen
+# Working with data | 🎈 Hippy Crack
 
 > ## Excerpt
 > Learn how to expose data to your data sync/async
@@ -278,7 +277,7 @@ Run `yarn dev` then you will have neat little development server with hot reload
 
 ___
 
-Hydrogen has a powerful API for exposing data to your page templates using the data method, we can expose synchronous or asynchronous data.
+Hippy Crack has a powerful API for exposing data to your page templates using the data method, we can expose synchronous or asynchronous data.
 
 Let's see how we can do this!
 
@@ -302,10 +301,10 @@ Using a simple object
       `;
 
       module.exports = {
-        title: 'Hydrogen webpage',
+        title: 'Hippy Crack webpage',
         page,
         data: ({ dev }) => ({
-          text: 'Hello from Hydrogen',
+          text: 'Hello from Hippy Crack',
         }),
       };
     
@@ -332,7 +331,7 @@ Using JSON data
       `;
 
       module.exports = {
-        title: 'Hydrogen webpage',
+        title: 'Hippy Crack webpage',
         page,
         data: ({ dev }) => ({
           posts: data,
@@ -364,7 +363,7 @@ Hitting a remote API
       `;
 
       module.exports = {
-        title: 'Hydrogen webpage',
+        title: 'Hippy Crack webpage',
         page,
         data: async ({ dev }) => ({
           githubStars: await axios.get('https://githubstars.com').then((res) => res.data),
@@ -376,7 +375,7 @@ Hitting a remote API
 
 
 
-# Working with Metadata | 🎈 Hydrogen
+# Working with Metadata | 🎈 Hippy Crack
 
 > ## Excerpt
 > Want to add some metadata to your page? Now you can with the Head API! All page templates have access to this API
@@ -421,13 +420,13 @@ In your page template you can export the head function
 
       module.exports = {
         layout: 'default',
-        title: 'Hydrogen webpage',
+        title: 'Hippy Crack webpage',
         page,
         data: () => ({
-          text: 'Hydrogen metadata',
+          text: 'Hippy Crack metadata',
         }),
         head: () => [
-          ['meta', { name: 'description', content: 'Hydrogen metadata' }],
+          ['meta', { name: 'description', content: 'Hippy Crack metadata' }],
         ];
       };
     
@@ -441,12 +440,12 @@ Run build command
       <!DOCTYPE html>
       <html>
         <head>
-          <meta name="description" content="Hydrogen metadata" />
+          <meta name="description" content="Hippy Crack metadata" />
           <script src="https://dev.script.js"></script>
-          <title>Hydrogen webpage</title>
+          <title>Hippy Crack webpage</title>
         </head>
         <body>
-          <p>Hydrogen metadata</p>
+          <p>Hippy Crack metadata</p>
         </body>
       </html>
     
@@ -467,7 +466,7 @@ We also have access to the data from the Data API
 
       module.exports = {
         layout: 'default',
-        title: 'Hydrogen webpage',
+        title: 'Hippy Crack webpage',
         page,
         data: async ({ dev }) => ({
           likes: await axios.get('https://likes.com').then(res => res.data),
@@ -480,9 +479,9 @@ We also have access to the data from the Data API
   
 ```
 
-## Using the Hydrogen config with the Head API
+## Using the Hippy Crack config with the Head API
 
-With the global `name` property provided by the [Hydrogen Config](https://hydrogen-js.netlify.app/docs/hydrogen-config), we can use it to manage our page title's
+With the global `name` property provided by the [Hippy Crack Config](https://Hippy Crack-js.netlify.app/docs/Hippy Crack-config), we can use it to manage our page title's
 
 ```
     
@@ -524,18 +523,18 @@ What if you want to update your static assets folder, you can do that to!
 
 
 
-# Setting Up a Service Worker | 🎈 Hydrogen
+# Setting Up a Service Worker | 🎈 Hippy Crack
 
 > ## Excerpt
 > A Service Worker is a super powerful browser API that allows you to intercept network requests online or offline.
-    Hydrogen is now able to expose all the generated routes to your Service Worker so that you can do some cool precaching of your routes or whatever fits your use case.
+    Hippy Crack is now able to expose all the generated routes to your Service Worker so that you can do some cool precaching of your routes or whatever fits your use case.
 
 ---
 # 💾 Setting Up a Service Worker`+v0.6`
 
 ___
 
-A Service Worker is a super powerful browser API that allows you to intercept network requests online or offline. Hydrogen is now able to expose all the generated routes to your Service Worker so that you can do some cool precaching of your routes or whatever fits your use case.
+A Service Worker is a super powerful browser API that allows you to intercept network requests online or offline. Hippy Crack is now able to expose all the generated routes to your Service Worker so that you can do some cool precaching of your routes or whatever fits your use case.
 
 ## Basic Setup
 
@@ -579,7 +578,7 @@ default.js
 
 Add the Service Worker file to the config file.
 
-hydrogen.config.js
+Hippy Crack.config.js
 
 ```
     
@@ -590,7 +589,7 @@ hydrogen.config.js
   
 ```
 
-Run `npx hydrogen build` and the `sw.js` will be copied to the dist folder
+Run `npx Hippy Crack build` and the `sw.js` will be copied to the dist folder
 
 ## Exposing page routes to your Service Worker
 
@@ -611,7 +610,7 @@ Here is our pages folder structure.
   
 ```
 
-Hydrogen generates the above folder structure into an array of routes like the example below.
+Hippy Crack generates the above folder structure into an array of routes like the example below.
 
 ```
     
@@ -716,10 +715,10 @@ Here we are deleting our old caches if we deployed a new version of our app, it 
 
 
 
-# Dynamically generate routes | 🎈 Hydrogen
+# Dynamically generate routes | 🎈 Hippy Crack
 
 > ## Excerpt
-> Learn how to dynamically generate routes with Hydrogen
+> Learn how to dynamically generate routes with Hippy Crack
 
 ---
 # ⚙ Generate routes dynamically `+v0.7`
@@ -730,15 +729,15 @@ What if you want to generate pages dynamically based off some data from an API? 
 
 ## Basic setup
 
-Create a file called `hydrogen.routes.js` in the root of your project
+Create a file called `Hippy Crack.routes.js` in the root of your project
 
-hydrogen.routes.js
+Hippy Crack.routes.js
 
 ```
     
       module.exports = async () => [
         {
-          path: '/blogs/setting-up-hydrogen',
+          path: '/blogs/setting-up-Hippy Crack',
           data: {
             post: 1,
           },
@@ -754,13 +753,13 @@ hydrogen.routes.js
   
 ```
 
-The above function will return an array of routes that can be dynamically generated. We can think of the path like this `/blogs/:dynamic-route` so if you we run `npx hydrogen build` it will generate pages like this:
+The above function will return an array of routes that can be dynamically generated. We can think of the path like this `/blogs/:dynamic-route` so if you we run `npx Hippy Crack build` it will generate pages like this:
 
 ```
     
       /dist
       |_ /blogs
-        |_ /setting-up-hydrogen
+        |_ /setting-up-Hippy Crack
           |_ index.html
         |_ /setting-up-a-service-worker
           |_ index.html
@@ -768,7 +767,7 @@ The above function will return an array of routes that can be dynamically genera
   
 ```
 
-Hydrogen will also inject the route information into the Head API, Data API and the Page Template.
+Hippy Crack will also inject the route information into the Head API, Data API and the Page Template.
 
 ## Setting up a dynamic page template
 
@@ -784,7 +783,7 @@ pages/blogs/\_index.js
 
       module.exports = {
         layout: 'default',
-        title: 'Hydrogen webpage',
+        title: 'Hippy Crack webpage',
         page,
         data: async ({ route }) => ({
           content: await axios.get('https://api.blog.com/post=${route.data.post}'),
@@ -797,28 +796,28 @@ pages/blogs/\_index.js
 
 
 
-# Hydrogen Config | 🎈 Hydrogen
+# Hippy Crack Config | 🎈 Hippy Crack
 
 > ## Excerpt
-> You can pass a config file to the Hydrogen CLI, the config file is accessible to the Layout, Page, Data and Head API
+> You can pass a config file to the Hippy Crack CLI, the config file is accessible to the Layout, Page, Data and Head API
 
 ---
-# 🔧 Hydrogen Config`+v0.5.6`
+# 🔧 Hippy Crack Config`+v0.5.6`
 
-You can pass a config file to the Hydrogen CLI, the config file is accessible to the Layout, Page, Data and Head API
+You can pass a config file to the Hippy Crack CLI, the config file is accessible to the Layout, Page, Data and Head API
 
-Create a file called `hydrogen.config.js` in the root of your project
+Create a file called `Hippy Crack.config.js` in the root of your project
 
 ## Set a global project name
 
 The `name` property can be used as the root title of all your pages
 
-hydrogen.config.js
+Hippy Crack.config.js
 
 ```
     
       module.exports = {
-        name: 'Hydrogen WebApp',
+        name: 'Hippy Crack WebApp',
       };
     
   
@@ -843,12 +842,12 @@ We need some way of copying our static assets into the `dist` folder, you can no
 
 Your static assets folder must be in the root of the project
 
-hydrogen.config.js
+Hippy Crack.config.js
 
 ```
     
       module.exports = {
-        name: 'Hydrogen Webapp',
+        name: 'Hippy Crack Webapp',
         staticFolder: 'public'
       };
     
@@ -859,12 +858,12 @@ hydrogen.config.js
 
 You now able to copy static files like `manifest.json` or any root-level files in your project to the `dist` folder
 
-hydrogen.config.js
+Hippy Crack.config.js
 
 ```
     
       module.exports = {
-        name: 'Hydrogen Webapp',
+        name: 'Hippy Crack Webapp',
         staticFolder: 'public'
         extraStaticFiles: [
           'robots.txt',
@@ -878,14 +877,14 @@ hydrogen.config.js
 
 ## Set global head tags
 
-You now have access to the [Head API](https://hydrogen-js.netlify.app/docs/working-with-meta-data) in the config for global meta info
+You now have access to the [Head API](https://Hippy Crack-js.netlify.app/docs/working-with-meta-data) in the config for global meta info
 
 The global head tags are merged with the head tags in each page
 
 ```
     
       module.exports = {
-        name: 'Hydrogen Webapp',
+        name: 'Hippy Crack Webapp',
         staticFolder: 'public',
         head: ({ config }) => [
           ['script', { src: 'https://my.script.js' }, true],
@@ -899,14 +898,14 @@ The global head tags are merged with the head tags in each page
 
 ## Setting a custom Service Worker `+v0.6`
 
-Want to add a Service Worker to your application, you can now do that with the `sw` property. Your Service Worker will have access to all the routes generated by Hydrogen. Find out more: [🩺 Setting Up a Service Worker](https://hydrogen-js.netlify.app/docs/setting-up-a-service-worker/)
+Want to add a Service Worker to your application, you can now do that with the `sw` property. Your Service Worker will have access to all the routes generated by Hippy Crack. Find out more: [🩺 Setting Up a Service Worker](https://Hippy Crack-js.netlify.app/docs/setting-up-a-service-worker/)
 
 You still need to manually include the registration script for your Service Worker. You can do that in a layout
 
 ```
     
       module.exports = {
-        name: 'Hydrogen Webapp',
+        name: 'Hippy Crack Webapp',
         sw: 'service_worker.js',
       };
     
@@ -915,7 +914,7 @@ You still need to manually include the registration script for your Service Work
 
 ## Delete dist folder before build `+v0.8`
 
-Hydrogen will automatically delete the `dist` folder before each build by default. You can turn this off by setting `build.deleteFolder` to `false`
+Hippy Crack will automatically delete the `dist` folder before each build by default. You can turn this off by setting `build.deleteFolder` to `false`
 
 ```
     
@@ -929,10 +928,10 @@ Hydrogen will automatically delete the `dist` folder before each build by defaul
 ```
 
 
-# Setting Up a Service Worker | 🎈 Hydrogen
+# Setting Up a Service Worker | 🎈 Hippy Crack
 
 > ## Excerpt
-> Build hooks allow you to observe events that happen during the Hydrogen build process.
+> Build hooks allow you to observe events that happen during the Hippy Crack build process.
     You can intercept and modify the context of the build process to your liking.
 
 ---
@@ -940,7 +939,7 @@ Hydrogen will automatically delete the `dist` folder before each build by defaul
 
 ___
 
-Build hooks allow you to observe events that happen during the Hydrogen build process. You can intercept and modify the context of the build process to your liking.
+Build hooks allow you to observe events that happen during the Hippy Crack build process. You can intercept and modify the context of the build process to your liking.
 
 Here are the events you can observe:
 
@@ -956,9 +955,9 @@ Here are the events you can observe:
 
 ## Basic Setup
 
-Create a file called `hydrogen.hooks.js` in the root of your project
+Create a file called `Hippy Crack.hooks.js` in the root of your project
 
-All you have to do is export the hooks of the events you want to observe in Hydrogen and that's all there is too it, keep in mind that the `ctx` of the hooks differ.
+All you have to do is export the hooks of the events you want to observe in Hippy Crack and that's all there is too it, keep in mind that the `ctx` of the hooks differ.
 
 ```
     
@@ -985,7 +984,7 @@ All you have to do is export the hooks of the events you want to observe in Hydr
 
 
 
-# Working with data | 🎈 Hydrogen
+# Working with data | 🎈 Hippy Crack
 
 > ## Excerpt
 > Learn how to expose data to your data sync/async
@@ -995,7 +994,7 @@ All you have to do is export the hooks of the events you want to observe in Hydr
 
 ___
 
-A bi-product of Hydrogen being based on Node.js is that we are able to support debugging of any JavaScript during the Hydrogen build process, just the way you would do with any other Node.js applications.
+A bi-product of Hippy Crack being based on Node.js is that we are able to support debugging of any JavaScript during the Hippy Crack build process, just the way you would do with any other Node.js applications.
 
 Let's see how we can do this!
 
@@ -1007,7 +1006,7 @@ Chrome has a built-in tool called the Node.js V8 inspector which allows us to de
 
 ```
     
-      npx --node-arg="--inspect-brk" hydrogen build --dev
+      npx --node-arg="--inspect-brk" Hippy Crack build --dev
     
   
 ```
@@ -1024,11 +1023,11 @@ Chrome has a built-in tool called the Node.js V8 inspector which allows us to de
 
 3\. Open the Chrome dev tools and you will see the Node logo popup right next to the Elements tab, click on it and you will go to the Node devtools
 
-![](https://hydrogen-js.netlify.app/public/images/node-dev-tools.png)
+![](https://Hippy Crack-js.netlify.app/public/images/node-dev-tools.png)
 
 4\. Once the Node Devtools are open, you will need to add your project folder to the workspace by clicking on "Add folder to workspace"
 
-![](https://hydrogen-js.netlify.app/public/images/node-inspector.png)
+![](https://Hippy Crack-js.netlify.app/public/images/node-inspector.png)
 
 Now you can debug your JavaScript
 
@@ -1040,7 +1039,7 @@ There are two ways we could setup debugging in VS Code, either with VS Code's au
 
 1\. Go to settings and search "auto attach" and turn the setting on
 
-![](https://hydrogen-js.netlify.app/public/images/auto-attach.png)
+![](https://Hippy Crack-js.netlify.app/public/images/auto-attach.png)
 
 2\. Set a breakpoint anywhere in your JavaScript
 
@@ -1048,7 +1047,7 @@ There are two ways we could setup debugging in VS Code, either with VS Code's au
 
 ```
     
-      npx --node-arg="--inspect-brk" hydrogen build --dev
+      npx --node-arg="--inspect-brk" Hippy Crack build --dev
     
   
 ```
@@ -1059,7 +1058,7 @@ VS Code will automatically attach to the Node.js debugging process and stop by y
 
 1\. Go to the _Debug Explorer_ and click on the _cogwheel_ on the top right, it will open up a `launch.json` file
 
-![](https://hydrogen-js.netlify.app/public/images/vscode-debug.png)
+![](https://Hippy Crack-js.netlify.app/public/images/vscode-debug.png)
 
 2\. Copy and paste the below JSON config to your launch.json file
 
@@ -1071,11 +1070,11 @@ VS Code will automatically attach to the Node.js debugging process and stop by y
           {
             "type": "node",
             "request": "launch",
-            "name": "Debug Hydrogen CLI",
+            "name": "Debug Hippy Crack CLI",
             "skipFiles": [
               "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/node_modules/hydrogen-cli/bin/run",
+            "program": "${workspaceFolder}/node_modules/Hippy Crack-cli/bin/run",
             "cwd": "${workspaceFolder}",
             "args": ["build", "--dev"],
           }
@@ -1087,4 +1086,4 @@ VS Code will automatically attach to the Node.js debugging process and stop by y
 
 Make sure to set a breakpoint
 
-3\. Go back to the Debug Explorer and run the debug "Debug Hydrogen CLI"
+3\. Go back to the Debug Explorer and run the debug "Debug Hippy Crack CLI"
