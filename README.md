@@ -1,4 +1,4 @@
-![N20](n20.jpg)
+![N20](/n20.jpg)
 
 # Docs | 🎈 Hippy Crack
 
@@ -152,7 +152,7 @@ Learn how to use a more advanced setup with Hippy Crack
 
 ___
 
-If you have not read the [Getting Started](https://Hippy Crack-js.netlify.app/docs/getting-started) guide, now would be the perfect time! The Advanced Section builds on top of what we did in the Getting Started section.
+If you have not read the guide, now would be the perfect time! The Advanced Section builds on top of what we did in the Getting Started section.
 
 ## Step 1: Setting up a layout
 
