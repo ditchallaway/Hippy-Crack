@@ -1,4 +1,4 @@
-![https://www.dropbox.com/s/u52ct4hid9v50dt/3424970624_fc01a70fc8_o.jpg?dl=0](C:/Users/jon-k/Dropbox/little-girl-blowing-up-balloon.jpg)
+![https://www.dropbox.com/s/u52ct4hid9v50dt/3424970624_fc01a70fc8_o.jpg?dl=0]()
 
 # Docs | 🎈 Hippy Crack
 
