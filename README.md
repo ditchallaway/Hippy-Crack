@@ -1,4 +1,4 @@
-![N20](/n20.jpg)
+![N20](https://sandpoint.properties/agents/jonny/n20.jpg)
 
 # Docs | 🎈 Hippy Crack
 
