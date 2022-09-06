@@ -9,7 +9,7 @@ Renamed Nitrous as the code had clearly become too heavy for an atom with just a
 
 ---
 
-# The lightest static-site generator
+# The hippiest static-site generator you can find at a concert for $5
 
 ___
 
