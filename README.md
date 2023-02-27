@@ -2,7 +2,7 @@
 
 # Docs | 🎈 Hippy Crack
 
- ## Code Forked from Hydrogen.js
+ ## Code Forked from Hydrogen.js > Renamed Nitrus.js > Re-Renamed "Hippy Crack"
 Renamed Nitrous as the code had clearly become too heavy for an atom with just a single proton.  Later named Hippy Crack when it was discovered that the **site** and and even the **generator** were emergent properties of the state.
 
 
